@@ -15,21 +15,21 @@ The app will be conceived with three different types of users in mind. The admin
 
 The features that should be available to each type of user are given below. Note that those are the minimum required features, and you are free to add more features you think might enrich your application.
 
-The administrator can:
-Create services (at least 5) to be offered by walk-in clinics using the application.
-Delete accounts of walk in clinics and users
-The walk in clinic employee can:
-Create an account for the walk in clinic
-Select services provided and the rate for each service
-Enter the working hours of the walk in clinic
-The patient can:
-Create an account
-Search for a walk in clinic by address/type of service provided/working hours
-Check in/book an appointment
-Rate his/her experience at the walk in clinic
-Your application should:
-Show the expected waiting times for walk in clinics based on the number of patients waiting to be seen (assume a fixed time of 15 minutes per patient)
-Show the rating that each walk in clinic has
+# The administrator can:  
+Create services (at least 5) to be offered by walk-in clinics using the application.  
+Delete accounts of walk in clinics and users  
+# The walk in clinic employee can:  
+Create an account for the walk in clinic  
+Select services provided and the rate for each service  
+Enter the working hours of the walk in clinic  
+# The patient can:  
+Create an account  
+Search for a walk in clinic by address/type of service provided/working hours  
+Check in/book an appointment  
+Rate his/her experience at the walk in clinic  
+Your application should:  
+Show the expected waiting times for walk in clinics based on the number of patients waiting to be seen (assume a fixed time of 15 minutes per patient)  
+Show the rating that each walk in clinic has  
 Show the admin account all registered users to allow him/her to delete user accounts
 Note: This course does not focus on interface design; hence, we do not focus on usability aspects. However, students are welcome to “beautify” their projects, should they be comfortable with user interface design. Consider the Android Design Guidelines when designing your application. This topic will be covered in a tutorial session and detailed information is available at: https://developer.android.com/design/index.html
 
