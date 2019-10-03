@@ -31,7 +31,6 @@ Your application should:
 Show the expected waiting times for walk in clinics based on the number of patients waiting to be seen (assume a fixed time of 15 minutes per patient)  
 Show the rating that each walk in clinic has  
 Show the admin account all registered users to allow him/her to delete user accounts
-Note: This course does not focus on interface design; hence, we do not focus on usability aspects. However, students are welcome to “beautify” their projects, should they be comfortable with user interface design. Consider the Android Design Guidelines when designing your application. This topic will be covered in a tutorial session and detailed information is available at: https://developer.android.com/design/index.html
 
 
 
