@@ -2,7 +2,10 @@
 key:  
 attributes, associations, code-generation, system model vs domain model, 
 reflexive associations, association classes, composition, multiplicity, operation, directionality.
+## [Slides](#slides)
+## [Textbook](#text)
 
+### Slides
 **The Unified Modeling Language**
 a standard visual modeling language intended to be used for 
 modeling business and similar processes,analysis, design, and implementation of software-based systems  
@@ -73,7 +76,7 @@ Navigation and Searching
 
 **RESOLUTION** ▸ Adequate training  ▸ Experienced modeler as team member ▸ Review all models thoroughly 
 
-
+### text
 
 
 
