@@ -166,4 +166,6 @@ Inception(1)Elaboration(2,3)Construction(4,5,6)Transition(7,8)
 1.Internal (1)2.release Minor milestones(2) 3. First “external”release (beta)6) 4.Final release(8)   
 
 
+# Text
+types of software: custom software,generic software,embedded software  
 
