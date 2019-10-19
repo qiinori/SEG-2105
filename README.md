@@ -11,3 +11,8 @@ Object oriented analysis using UML. Frameworks and APIs.
 Introduction to the client-server architecture. Analysis, design and programming of simple servers and clients. 
 Introduction to user interface technology.
 
+# Projects:
+[**Simple Calculator**  ](/Projects/SimpleCalculator/)  
+Tool : Android studio  
+![sample](https://github.com/qiinori/SEG-2105/blob/master/Projects/SimpleCalculator/Sample%20calculator.PNG)
+
