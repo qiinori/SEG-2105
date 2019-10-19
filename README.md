@@ -13,7 +13,8 @@ Introduction to user interface technology.
 
 # Projects:
 [Simple Calculator](#simpleCalculator)  
-[Sports-centric profile manager](#Sports-centric-profile-manager)  
+[Sports-centric profile manager](#Sports-centric-profile-manager)
+[Android and Firebase - Creating a Cloud database for your Android Application]()
 • Requirements:
 1. Application should have multiple activities
 1. Each activity should have a specific purpose
@@ -22,9 +23,10 @@ Introduction to user interface technology.
 4. You should be able to set the An Address (Separate Activity)
 5. You should be able to open a map application in the correct address set in your application 
 
-# SimpleCalculator
+## SimpleCalculator
 ![sample](https://github.com/qiinori/SEG-2105/blob/master/Projects/SimpleCalculator/Sample%20calculator.PNG)
 
-# Sports-centric profile manager 
+## Sports-centric profile manager 
 
+## Android and Firebase
 
