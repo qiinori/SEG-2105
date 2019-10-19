@@ -12,7 +12,19 @@ Introduction to the client-server architecture. Analysis, design and programming
 Introduction to user interface technology.
 
 # Projects:
-[**Simple Calculator**  ](/Projects/SimpleCalculator/)  
-Tool : Android studio  
+[Simple Calculator](#simpleCalculator)  
+[Sports-centric profile manager](#Sports-centric-profile-manager)  
+• Requirements:
+1. Application should have multiple activities
+1. Each activity should have a specific purpose
+2. You should be able to set/change the Profile Name
+3. You should be able to set/change the Profile Logo/Avatar (Separate Activity)
+4. You should be able to set the An Address (Separate Activity)
+5. You should be able to open a map application in the correct address set in your application 
+
+# SimpleCalculator
 ![sample](https://github.com/qiinori/SEG-2105/blob/master/Projects/SimpleCalculator/Sample%20calculator.PNG)
+
+# Sports-centric profile manager 
+
 
