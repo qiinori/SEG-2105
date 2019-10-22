@@ -22,6 +22,7 @@ Introduction to user interface technology.
 3. You should be able to set/change the Profile Logo/Avatar (Separate Activity)
 4. You should be able to set the An Address (Separate Activity)
 5. You should be able to open a map application in the correct address set in your application 
+[walk in clinic]()
 
 ## SimpleCalculator
 ![sample](https://github.com/qiinori/SEG-2105/blob/master/Projects/SimpleCalculator/Sample%20calculator.PNG)
@@ -30,3 +31,4 @@ Introduction to user interface technology.
 
 ## Android and Firebase
 
+## walk in clinic app
