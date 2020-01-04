@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textusername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username" />
+
+            <EditText
+                android:id="@+id/textUsername"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textfirstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Firstname" />
+
+            <EditText
+                android:id="@+id/textFname"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textlastname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lastname" />
+            <EditText
+                android:id="@+id/textLname"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/textemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email" />
+            <EditText
+                android:id="@+id/textEmail"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textservices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Services assigned" />
+            <EditText
+                android:id="@+id/textServices"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textpatient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Patient assigned" />
+            <EditText
+                android:id="@+id/textPatient"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textdescriotion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Role" />
+
+            <EditText
+                android:id="@+id/textViewDescription"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textworkhour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hour" />
+            <EditText
+                android:id="@+id/textWorkhour"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <Button
+            android:id="@+id/EditDone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="editPatient"
+            android:text="Completed" />
+
+        <Button
+            android:id="@+id/Delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="deletePatient"
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/Return"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="patientReturn"
+            android:text="Back" />
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

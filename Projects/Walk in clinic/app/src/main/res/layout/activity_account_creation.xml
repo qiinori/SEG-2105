@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountCreation">
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="237dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="87dp"
+        android:gravity="left"
+        android:hint="Email Address"
+        android:textSize="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LastName" />
+
+    <TextView
+        android:id="@+id/AccountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="81dp"
+        android:text="Create an Account"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/FirstName"
+        android:layout_width="237dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="87dp"
+        android:gravity="left"
+        android:hint="First Name"
+        android:textSize="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AccountText" />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="237dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="87dp"
+        android:gravity="left"
+        android:hint="Username"
+        android:textSize="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AccountText" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="237dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="87dp"
+        android:gravity="left"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Email" />
+
+    <EditText
+        android:id="@+id/ConfirmPassword"
+        android:layout_width="237dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="left"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/AccountTypeSpinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password" />
+
+    <EditText
+        android:id="@+id/LastName"
+        android:layout_width="237dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="87dp"
+        android:gravity="left"
+        android:hint="Last Name"
+        android:textSize="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FirstName" />
+
+    <TextView
+        android:id="@+id/AccountTypeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Type of account"
+        app:layout_constraintBottom_toTopOf="@+id/CreateAccount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ConfirmPassword" />
+
+    <Spinner
+        android:id="@+id/AccountTypeSpinner"
+        android:layout_width="162dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toTopOf="@+id/CreateAccount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ConfirmPassword" />
+
+    <Button
+        android:id="@+id/CreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="120dp"
+        android:onClick ="registerUser"
+        android:text="Create Account"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AccountTypeSpinner" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
