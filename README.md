@@ -24,11 +24,9 @@ Introduction to user interface technology.
 5. You should be able to open a map application in the correct address set in your application 
 [walk in clinic]()
 
-## SimpleCalculator
+## SimpleCalculator App
 ![sample](https://github.com/qiinori/SEG-2105/blob/master/Projects/SimpleCalculator/Sample%20calculator.PNG)
 
-## Sports-centric profile manager 
-
-## Android and Firebase
 
 ## walk in clinic app
+![sample](https://github.com/qiinori/SEG-2105/blob/master/Projects/SimpleCalculator/Home.PNG)
