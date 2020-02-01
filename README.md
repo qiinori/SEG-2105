@@ -1,4 +1,4 @@
-# SEG-2105 Software engineering
+# Software engineering
 
 **Professor Dr. Andrew Forward**  
 Textbook: "Object Oriented Software Engineering: Practical Software Development Using UML and Java, 2nd Ed"
