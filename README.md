@@ -29,4 +29,4 @@ Introduction to user interface technology.
 
 
 ## walk in clinic app
-![sample](https://github.com/qiinori/SEG-2105/blob/master/Projects/SimpleCalculator/Home.PNG)
+![home](https://github.com/qiinori/Software-engineering/blob/master/Projects/Home.PNG)
